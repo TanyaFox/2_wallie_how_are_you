@@ -15,6 +15,6 @@ def get_wallie_action():
     return 'Валли ' + random.choice(possible_actions)
 
 
-if __name__ == '__main__':
+if __name__ == '__wallie__':
     action = get_wallie_action()
-    print action
+    print (action)
